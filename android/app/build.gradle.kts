@@ -20,11 +20,14 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.mekuyazilim"
-        minSdkVersion 21
-        targetSdkVersion flutter.targetSdkVersion
-                versionCode flutterVersionCode.toInteger()
-        versionName flutterVersionName
+        // Uygulama kimliğini buraya yaz
+        applicationId = "com.mekuyazilim"
+
+        // HATALI YERLER BURASIYDI, ŞİMDİ KOTLIN FORMATINDA:
+        minSdk = 21
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutterVersionCode.toInteger()
+        versionName = flutterVersionName
     }
 
     buildTypes {
