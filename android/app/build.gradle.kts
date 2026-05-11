@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         applicationId "com.mekuyazilim"
-        minSdkVersion 21 // BURAYI 21 YAP
+        minSdkVersion 21
         targetSdkVersion flutter.targetSdkVersion
                 versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName

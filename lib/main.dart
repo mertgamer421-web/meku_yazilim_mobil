@@ -25,7 +25,7 @@ class _MekuAppState extends State<MekuApp> {
     controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..setBackgroundColor(const Color(0x00000000))
-      ..loadRequest(Uri.parse('https://wwww.mekuyazilim.com'));
+      ..loadRequest(Uri.parse('https://uniquerpg-lspdreportsystem.infinityfreeapp.com/?i=1'));
   }
 
   @override
